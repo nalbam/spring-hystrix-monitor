@@ -10,10 +10,10 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 @EnableCircuitBreaker
 @EnableDiscoveryClient
 @SpringBootApplication
-public class HystrixDemoApplication {
+public class HystrixMonitorApplication {
 
     public static void main(final String[] args) {
-        SpringApplication.run(HystrixDemoApplication.class, args);
+        SpringApplication.run(HystrixMonitorApplication.class, args);
     }
 
 }

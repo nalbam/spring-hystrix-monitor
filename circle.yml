@@ -33,9 +33,9 @@ deployment:
     branch: /^(?!master$).*$/
     commands:
       - ~/toaster/toast.sh publish beanstalk
-      # ~/toaster/toast.sh deploy beanstalk demo-hystrix-dev
+      # ~/toaster/toast.sh deploy beanstalk hystrix-monitor-dev
   production:
     branch: master
     commands:
       - ~/toaster/toast.sh publish beanstalk
-      - ~/toaster/toast.sh deploy beanstalk demo-hystrix-prod
+      - ~/toaster/toast.sh deploy beanstalk hystrix-monitor-prod

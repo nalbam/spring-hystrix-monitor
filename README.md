@@ -1,4 +1,4 @@
-# spring-demo-hystrix
+# spring-hystrix-monitor
 
 ```
 PORT=8088

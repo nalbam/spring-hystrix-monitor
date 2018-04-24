@@ -1,6 +1,6 @@
 spring:
   application:
-    name: demo-hystrix
+    name: hystrix-monitor
   profiles:
     active: ${PROFILE:default}
   cloud:
