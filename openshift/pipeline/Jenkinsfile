@@ -1,0 +1,6 @@
+node('maven') {
+  stage 'build'
+  openshiftBuild(buildConfig: 'hystrix-monitor', showBuildLogs: 'true')
+  stage 'deploy'
+  openshiftDeploy(deploymentConfig: 'hystrix-monitor')
+}
